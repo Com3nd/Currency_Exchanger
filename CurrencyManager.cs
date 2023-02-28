@@ -52,19 +52,19 @@ namespace Currency_Exchanger
             switch (currency)
             {
                 case "dollar":
-                    DollarQty -= 1;
+                    if (DollarQty > 0) { DollarQty -= 1; }
                     break;
 
                 case "fiftyCent":
-                    FiftyCentQty -= 1;
+                    if (FiftyCentQty >0) { FiftyCentQty -= 1; }
                     break;
 
                 case "tenCent":
-                    TenCentQty -= 1;
+                    if (TenCentQty > 0) { TenCentQty -= 1; }
                     break;
 
                 case "fiveCent":
-                    FiveCentQty -= 1;
+                    if (FiveCentQty > 0) { FiveCentQty -= 1; }
                     break;
             }
         }
