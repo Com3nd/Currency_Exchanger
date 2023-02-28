@@ -23,7 +23,7 @@
 
         <Label Text="Total: $0" 
                HorizontalTextAlignment="Center" 
-               FontSize="16" 
+               FontSize="30" 
                Grid.ColumnSpan="6" 
                Grid.Row="0" 
                HorizontalOptions="FillAndExpand" 
