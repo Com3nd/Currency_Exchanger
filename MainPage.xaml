@@ -55,14 +55,16 @@
                 Grid.Row="1"
                 Grid.Column="1"
                 Margin="0, 6"
-                x:Name="DollarAddButton"/>
+                x:Name="DollarAddButton"
+                Pressed="DollarAddButton_Pressed" />
 
         <Button Text="-"
                 FontSize="40"
                 Grid.Row="1"
                 Grid.Column="2"
                 Margin="0, 6"
-                x:Name="DollarTakeButton"/>
+                x:Name="DollarTakeButton"
+                Pressed="DollarTakeButton_Pressed"/>
 
         <Button Text="*"
                 TextColor="Black"
@@ -77,7 +79,8 @@
                 Grid.Row="1"
                 Grid.Column="4"
                 Margin="0, 6"
-                x:Name="DollarToFiftyButton"/>
+                x:Name="DollarToFiftyButton"
+                Pressed="DollarToFiftyButton_Pressed"/>
 
         <Label Text="$0"
                FontSize="20"
@@ -87,7 +90,8 @@
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
                Margin="0, 5"
-               x:Name="DollarTotalLabel"/>
+               x:Name="DollarTotalLabel"
+               />
 
         <!-- Second row -->
         
@@ -113,28 +117,32 @@
                 Grid.Row="2"
                 Grid.Column="1"
                 Margin="0, 6"
-                x:Name="FiftyAddButton"/>
+                x:Name="FiftyAddButton"
+                Pressed="FiftyAddButton_Pressed"/>
 
         <Button Text="-"
                 FontSize="40"
                 Grid.Row="2"
                 Grid.Column="2"
                 Margin="0, 6"
-                x:Name="FiftyTakeButton"/>
+                x:Name="FiftyTakeButton"
+                Pressed="FiftyTakeButton_Pressed"/>
 
         <Button Text="^"
                 FontSize="30"
                 Grid.Row="2"
                 Grid.Column="3"
                 Margin="0, 6"
-                x:Name="FiftyToDollarButton"/>
+                x:Name="FiftyToDollarButton"
+                Pressed="FiftyToDollarButton_Pressed"/>
 
         <Button Text="v"
                 FontSize="30"
                 Grid.Row="2"
                 Grid.Column="4"
                 Margin="0, 6"
-                x:Name="FIftyToTenButton"/>
+                x:Name="FIftyToTenButton"
+                Pressed="FIftyToTenButton_Pressed"/>
 
         <Label Text="$0"
                FontSize="20"
@@ -170,28 +178,32 @@
                 Grid.Row="3"
                 Grid.Column="1"
                 Margin="0, 6"
-                x:Name="TenAddButton"/>
+                x:Name="TenAddButton"
+                Pressed="TenAddButton_Pressed"/>
 
         <Button Text="-"
                 FontSize="40"
                 Grid.Row="3"
                 Grid.Column="2"
                 Margin="0, 6"
-                x:Name="TenTakeButton"/>
+                x:Name="TenTakeButton"
+                Pressed="TenTakeButton_Pressed"/>
 
         <Button Text="^"
                 FontSize="30"
                 Grid.Row="3"
                 Grid.Column="3"
                 Margin="0, 6"
-                x:Name="TenToFiftyButton"/>
+                x:Name="TenToFiftyButton"
+                Pressed="TenToFiftyButton_Pressed"/>
 
         <Button Text="v"
                 FontSize="30"
                 Grid.Row="3"
                 Grid.Column="4"
                 Margin="0, 6"
-                x:Name="TenToFiveButton"/>
+                x:Name="TenToFiveButton"
+                Pressed="TenToFiveButton_Pressed"/>
 
         <Label Text="$0"
                FontSize="20"
@@ -227,21 +239,24 @@
                 Grid.Row="4"
                 Grid.Column="1"
                 Margin="0, 6"
-                x:Name="FiveAddButton"/>
+                x:Name="FiveAddButton"
+                Pressed="FiveAddButton_Pressed"/>
 
         <Button Text="-"
                 FontSize="40"
                 Grid.Row="4"
                 Grid.Column="2"
                 Margin="0, 6"
-                x:Name="FiveTakeButton"/>
+                x:Name="FiveTakeButton"
+                Pressed="FiveTakeButton_Pressed"/>
 
         <Button Text="^"
                 FontSize="30"
                 Grid.Row="4"
                 Grid.Column="3"
                 Margin="0, 6"
-                x:Name="FiveToTenButton"/>
+                x:Name="FiveToTenButton"
+                Pressed="FiveToTenButton_Pressed"/>
 
         <Button Text="*"
                 TextColor="Black"
